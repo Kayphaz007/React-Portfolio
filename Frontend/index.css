@@ -6,7 +6,10 @@
 @layer base {
   html {
     color: #d9d7d7;
+    boxsizing: border-box;
   }
+  h1, h2{
+    font-family: 'Oxygen', sans-serif;}
   h3 {
     font-family: "Dancing Script", cursive;
   }

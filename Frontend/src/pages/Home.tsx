@@ -10,7 +10,7 @@ const Home = () => {
             <Intro/>
             <Skills/>
             <Resume/>
-
+            <Projects/>
         </>
     );
 };
