@@ -54,14 +54,14 @@ const Resume = () => {
       },
   ]
   return (
-    <section className="text-white font-paragraph main_1 m-0">
-      <div className="">
+    <section className=" main_1 ">
+      <div className="text-white font-paragraph m-0  max-w-2xl md:max-w-7xl px-7 mx-auto gap-3 ">
         <h3 className="text-2xl text-center p-2">
           <span className="border-b-2 border-[#ffb401] pb-1 px-3">Resume</span>
         </h3>
         <h1 className="text-4xl text-center m-2">My Entire Career</h1>
-        <div className="flex flex-col">
-          <div>
+        <div className="flex flex-col md:flex-row ">
+          <div className="md:border-r md:border-[#ffb401] md:pr-7">
             <h2 className="my-6 pl-2">
               <span className="border-4 border-[#ffb401] p-2 text-2xl font-bold m-1">
                 Education
@@ -69,7 +69,7 @@ const Resume = () => {
             </h2>
             {eduDetails.map((eduDetail)=><EduCard item={eduDetail}/> )}
           </div>
-          <div>
+          <div className="md:border-l md:border-[#ffb401] md:pl-7">
             <h2 className="my-6 pl-2">
               <span className="border-4 border-[#ffb401] p-2 text-2xl font-bold m-1">
                 Work Experience
