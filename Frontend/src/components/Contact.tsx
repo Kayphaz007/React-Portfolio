@@ -7,8 +7,8 @@ const Contact = () => {
   };
   return (
     <>
-      <section className="text-white flex flex-col md:max-w-2xl main_1  m-0">
-        <div>
+      <section className="main_1">
+        <div className="text-white flex flex-col max-w-2xl md:max-w-7xl px-7 mx-auto">
           <h3 className="text-2xl text-center p-2">
             <span className="border-b-2 border-[#ffb401] pb-1 px-3">
               Contacts
@@ -16,9 +16,11 @@ const Contact = () => {
           </h3>
           <h1 className="text-4xl text-center m-2">Get In Touch With Me</h1>
 
-          <form >
+          <form>
             <fieldset className="mx-auto p-5">
-              <legend><p>Send a message</p></legend>
+              <legend>
+                <p>Send a message</p>
+              </legend>
               <p>
                 <label htmlFor="name" className="hidden">
                   Your name
@@ -37,7 +39,7 @@ const Contact = () => {
                 </label>
                 <input
                   type="text"
-                  placeholder="Your e-mail"
+                  placeholder="Subject"
                   className="bg-transparent py-5 w-full border-b-2 border-[#ffb401]"
                   onChange={clearCLick}
                   value={message}
@@ -57,14 +59,16 @@ const Contact = () => {
               <p className="flex justify-start items-center gap-3">
                 <button
                   className="bg-transparent hover:bg-[#ffb401] p-4 border-2 border-[#ffb401] duration-500 uppercase text-xl"
-                  onClick={()=> setMessage("")}
+                  onClick={() => setMessage("")}
                 >
                   clear
                 </button>
 
-                <button className="bg-transparent hover:bg-[#ffb401] p-4 border-2 border-[#ffb401] duration-500 uppercase text-xl">
-                  Send Message
-                </button>
+                <a href="">
+                  <button className="bg-transparent hover:bg-[#ffb401] p-4 border-2 border-[#ffb401] duration-500 uppercase text-xl">
+                    Send Message
+                  </button>
+                </a>
               </p>
             </fieldset>
           </form>

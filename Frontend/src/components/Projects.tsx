@@ -24,7 +24,7 @@ const Projects = () => {
                 <img
                   key={item.id}
                   src={item.imgUrl}
-                  className="w-[20rem] h-[20rem] object-cover  hover:opacity-[0]"
+                  className="w-[20rem] h-[20rem] object-cover mx-auto  hover:opacity-[0]"
                 />
               </div>
             ))}

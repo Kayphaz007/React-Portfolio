@@ -7,11 +7,16 @@ const Intro = () => {
   return (
     <>
       <section className="main_1">
-        <div className="text-white flex flex-col lg:flex-row justify-center items-center h-screen max-w-2xl md:max-w-7xl px-7 mx-auto mt-[-4rem] gap-3 ">
-          <div className="lg:order-3 mt-16 lg:basis-1/3">
+        <div className="text-white flex flex-col lg:flex-row justify-center items-center h-screen max-w-2xl md:max-w-7xl px-7 mx-auto mt-[-4rem] gap-3 relative">
+          <div
+            className="lg:order-3 mt-16 lg:basis-1/3"
+          >
             <img
               className="w-[18rem] h-[18rem] object-cover p-2 border-[#ffb401] border-t-[4px] border-l-[1px] rounded-[18rem] "
               src={avatar}
+              data-aos="fade-down"
+              data-aos-delay="1000"
+              data-aos-duration="2000"
             />
           </div>
           <div className="lg:basis-2/3">
