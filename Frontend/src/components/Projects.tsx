@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <>
       <section className="main_2">
-        <div className="text-white flex flex-col max-w-2xl md:max-w-7xl px-7  mx-auto">
+        <div className="text-white flex flex-col px-7  mx-auto">
           <h3 className="text-2xl text-center p-2">
             <span className="border-b-2 border-[#ffb401] pb-1 px-3">
               Portfolios

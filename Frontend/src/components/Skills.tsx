@@ -5,7 +5,7 @@ const Skills = () => {
   return (
     <>
       <section className="main_2">
-        <div className="text-white flex flex-col max-w-2xl md:max-w-7xl m-0 mx-auto px-7   ">
+        <div className="text-white flex flex-col m-0 mx-auto px-7   ">
           <h3 className="text-2xl text-center p-2">
             <span className="border-b-2 border-[#ffb401] pb-1 px-3">
               My Skills

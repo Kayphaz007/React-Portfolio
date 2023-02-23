@@ -4,9 +4,9 @@
 @tailwind utilities;
 
 @layer base {
-  html {
+
+  body{
     color: #d9d7d7;
-    box-sizing: border-box;
   }
   h1, h2{
     font-family: 'Oxygen', sans-serif;}
@@ -36,6 +36,3 @@
   }
 }
 
-body {
-  background-color: #000300;
-}

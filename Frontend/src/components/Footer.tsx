@@ -7,7 +7,7 @@ const footer = () => {
   return (
     <>
       <section className="main_2">
-        <div className="text-white flex flex-col max-w-2xl md:max-w-7xl px-7 mx-auto">
+        <div className="text-white flex flex-col px-7 mx-auto">
           <div className="flex justify-center items-center  w-full gap-5 bg-transparent py-5 border-b-2 border-[#ffb401]">
             <a href="mailto:kayphaz007@gmail.com?subject=Mail from Portfolio"><AiOutlineMail size={50} className="text-[#ffb401]" /></a>
             <a href=""><BsGithub size={50} className="text-[#ffb401]" /></a>
